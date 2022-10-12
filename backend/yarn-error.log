@@ -1,0 +1,41 @@
+Arguments: 
+  /opt/homebrew/Cellar/node@16/16.16.0/bin/node /opt/homebrew/bin/yarn add exepress
+
+PATH: 
+  /Users/duuude/go/bin:/opt/homebrew/opt/node@16/bin:/Users/duuude/dev/scripts:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Users/duuude/go/bin:/opt/homebrew/opt/node@16/bin:/Users/duuude/.sdkman/candidates/maven/current/bin:/Users/duuude/.sdkman/candidates/jreleaser/current/bin:/Users/duuude/.sdkman/candidates/java/current/bin:/Users/duuude/dev/scripts:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/duuude/Library/Application Support/JetBrains/Toolbox/scripts:/Users/duuude/Library/Application Support/JetBrains/Toolbox/scripts
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/exepress: Not found
+      at Request.params.callback [as _callback] (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "@experiment1/backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
